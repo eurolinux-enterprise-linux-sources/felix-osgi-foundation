@@ -7,7 +7,7 @@
 
 Name:    felix-osgi-foundation
 Version: 1.2.0
-Release: 15%{?dist}
+Release: 16%{?dist}
 Summary: Felix OSGi Foundation EE Bundle
 
 License: ASL 2.0
@@ -51,6 +51,9 @@ API documentation for %{name}.
 %doc LICENSE NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.2.0-16
+- Mass rebuild 2013-12-27
+
 * Thu Sep 19 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 1.2.0-15
 - Add missing BR: felix-parent
 
